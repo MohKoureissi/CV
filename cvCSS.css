@@ -1,0 +1,61 @@
+:root{
+    --color1: #1B304D;
+    --color2:  #D9D9D9;
+    --color3: #FFFFFF;
+}
+main{
+    width: 672px;
+    height: 948px;
+    display: flex;
+    color: #FFFFFF;
+}
+aside{
+    width: 40%;
+    background-color: #D9D9D9;
+}
+.photo{
+    position: absolute;
+width: 273px;
+height: 202px;
+left: 2px;
+top: 0px;
+background: #1C2866;
+border-radius: 0px 0px 150px 150px;
+}
+img{
+    position: absolute;
+width: 210px;
+height: 225px;
+left: 3vh;
+top: 8vh;
+ background-color: #D9D9D9; 
+border: 3px solid #D9D9D9;
+border-radius: 122px;
+}
+.profil-container {
+padding: 15px;
+}
+.profil-cadre{
+ position: absolute;
+width: 239.03px;
+height: 55px;
+left: 3vh;
+top: 40vh;
+background:#FFFFFF;
+border-radius: 25px;
+}
+.profil-cadre  span{
+display: flex;
+width: 200.03px;
+height: 55px;
+left: 0.01vh;
+top: 0.01vh;
+background: #1C2866;
+border-radius: 25px;
+justify-content: center;
+align-items: center;
+}
+.profil-profil p{
+    display: flex;
+
+}
